@@ -29,7 +29,7 @@ class Genrator(QWidget):
                     pasw = pasw + chr(random.randint(ord('a'), ord('z')))
             for i in range(2):
                 pasw = pasw + chr(random.randint(ord('A'), ord('Z')))
-                pasw = pasw + str((len(log)**4)%100)
+            pasw = pasw + str((len(log)**4)%100)
             if len(pasw) < 7:
                 a = pasw[5]
                 pasw = pasw[:5]
