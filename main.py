@@ -4,6 +4,7 @@ from PyQt5.QtWidgets import QApplication, QWidget, QLineEdit, QHBoxLayout, QVBox
 
 
 class Genrator(QWidget):
+    #Задание интерфейса
     def __init__(self):
         super(Genrator, self).__init__()
         self.vbox = QVBoxLayout(self)
@@ -21,6 +22,7 @@ class Genrator(QWidget):
 
         self.gen.clicked.connect(self._generate)
 
+    # Функция генерации пароля
     def _generate(self):
         log = self.input.text()
         pasw = ''
