@@ -21,7 +21,7 @@ class Genrator(QWidget):
 
         self.gen.clicked.connect(self._generate)
 
-    # Функция генерации пароля
+    # Функция генерации ЭЦП
     def _generate(self):
         a = self.input.text()
         summ = 0
