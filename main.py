@@ -1,5 +1,3 @@
-import random
-from math import log, ceil
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QLineEdit, QHBoxLayout, QVBoxLayout, QPushButton, QMessageBox, QCheckBox
 
